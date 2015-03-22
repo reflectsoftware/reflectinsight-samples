@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+                <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+                <xs:element name="ContactName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CategoryID" type="xs:int" minOccurs="0" />
+                <xs:element name="CategoryName" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductID" type="xs:int" minOccurs="0" />
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="QuantityPerUnit" type="xs:string" minOccurs="0" />
+                <xs:element name="UnitPrice" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <CustomerID>ALFKI</CustomerID>
+    <CompanyName>Alfreds Futterkiste</CompanyName>
+    <ContactName>Maria Anders</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>ANATR</CustomerID>
+    <CompanyName>Ana Trujillo Emparedados y helados</CompanyName>
+    <ContactName>Ana Trujillo</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>ANTON</CustomerID>
+    <CompanyName>Antonio Moreno Taquería</CompanyName>
+    <ContactName>Antonio Moreno</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>AROUT</CustomerID>
+    <CompanyName>Around the Horn</CompanyName>
+    <ContactName>Thomas Hardy</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BERGS</CustomerID>
+    <CompanyName>Berglunds snabbköp</CompanyName>
+    <ContactName>Christina Berglund</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BLAUS</CustomerID>
+    <CompanyName>Blauer See Delikatessen</CompanyName>
+    <ContactName>Hanna Moos</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BLONP</CustomerID>
+    <CompanyName>Blondesddsl père et fils</CompanyName>
+    <ContactName>Frédérique Citeaux</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BOLID</CustomerID>
+    <CompanyName>Bólido Comidas preparadas</CompanyName>
+    <ContactName>Martín Sommer</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BONAP</CustomerID>
+    <CompanyName>Bon app'</CompanyName>
+    <ContactName>Laurence Lebihan</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BOTTM</CustomerID>
+    <CompanyName>Bottom-Dollar Markets</CompanyName>
+    <ContactName>Elizabeth Lincoln</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>BSBEV</CustomerID>
+    <CompanyName>B's Beverages</CompanyName>
+    <ContactName>Victoria Ashworth</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>CACTU</CustomerID>
+    <CompanyName>Cactus Comidas para llevar</CompanyName>
+    <ContactName>Patricio Simpson</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>CENTC</CustomerID>
+    <CompanyName>Centro comercial Moctezuma</CompanyName>
+    <ContactName>Francisco Chang</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>CHOPS</CustomerID>
+    <CompanyName>Chop-suey Chinese</CompanyName>
+    <ContactName>Yang Wang</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>COMMI</CustomerID>
+    <CompanyName>Comércio Mineiro</CompanyName>
+    <ContactName>Pedro Afonso</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>CONSH</CustomerID>
+    <CompanyName>Consolidated Holdings</CompanyName>
+    <ContactName>Elizabeth Brown</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>DRACD</CustomerID>
+    <CompanyName>Drachenblut Delikatessen</CompanyName>
+    <ContactName>Sven Ottlieb</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>DUMON</CustomerID>
+    <CompanyName>Du monde entier</CompanyName>
+    <ContactName>Janine Labrune</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>EASTC</CustomerID>
+    <CompanyName>Eastern Connection</CompanyName>
+    <ContactName>Ann Devon</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>ERNSH</CustomerID>
+    <CompanyName>Ernst Handel</CompanyName>
+    <ContactName>Roland Mendel</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FAMIA</CustomerID>
+    <CompanyName>Familia Arquibaldo</CompanyName>
+    <ContactName>Aria Cruz</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FISSA</CustomerID>
+    <CompanyName>FISSA Fabrica Inter. Salchichas S.A.</CompanyName>
+    <ContactName>Diego Roel</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FOLIG</CustomerID>
+    <CompanyName>Folies gourmandes</CompanyName>
+    <ContactName>Martine Rancé</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FOLKO</CustomerID>
+    <CompanyName>Folk och fä HB</CompanyName>
+    <ContactName>Maria Larsson</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FRANK</CustomerID>
+    <CompanyName>Frankenversand</CompanyName>
+    <ContactName>Peter Franken</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FRANR</CustomerID>
+    <CompanyName>France restauration</CompanyName>
+    <ContactName>Carine Schmitt</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FRANS</CustomerID>
+    <CompanyName>Franchi S.p.A.</CompanyName>
+    <ContactName>Paolo Accorti</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>FURIB</CustomerID>
+    <CompanyName>Furia Bacalhau e Frutos do Mar</CompanyName>
+    <ContactName>Lino Rodriguez</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>GALED</CustomerID>
+    <CompanyName>Galería del gastrónomo</CompanyName>
+    <ContactName>Eduardo Saavedra</ContactName>
+  </Table>
+  <Table>
+    <CustomerID>GODOS</CustomerID>
+    <CompanyName>Godos Cocina Típica</CompanyName>
+    <ContactName>José Pedro Freyre</ContactName>
+  </Table>
+  <Table1>
+    <CustomerID>ALFKI</CustomerID>
+    <CategoryID>1</CategoryID>
+    <CategoryName>Beverages</CategoryName>
+    <Description>Soft drinks, coffees, teas, beers, and ales</Description>
+  </Table1>
+  <Table1>
+    <CategoryID>2</CategoryID>
+    <CategoryName>Condiments</CategoryName>
+    <Description>Sweet and savory sauces, relishes, spreads, and seasonings</Description>
+  </Table1>
+  <Table1>
+    <CategoryID>3</CategoryID>
+    <CategoryName>Confections</CategoryName>
+    <Description>Desserts, candies, and sweet breads</Description>
+  </Table1>
+  <Table1>
+    <CategoryID>4</CategoryID>
+    <CategoryName>Dairy Products</CategoryName>
+    <Description>Cheeses</Description>
+  </Table1>
+  <Table1>
+    <CategoryID>5</CategoryID>
+    <CategoryName>Grains/Cereals</CategoryName>
+    <Description>Breads, crackers, pasta, and cereal</Description>
+  </Table1>
+</NewDataSet>

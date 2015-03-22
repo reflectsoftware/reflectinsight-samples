@@ -1,0 +1,39 @@
+﻿<Window x:Class="Watches_Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ReflectInsight Watches Sample" 
+        WindowStartupLocation="CenterScreen"
+        Height="400" 
+        MinHeight="300"
+        Width="525"
+        MinWidth="400">
+    
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="6">
+            <Label Content="Watches Demo" FontSize="18" FontWeight="SemiBold" Foreground="#007ACC"/>
+            <TextBlock Padding="6" TextWrapping="WrapWithOverflow">
+                <TextBlock.Text>
+                   To demonstrate the Watches capabilities, move your mouse over the section below. 
+                   You will then notice in the ReflectInsight Live Viewer an entry in the Watches view with the current mouse position. Only the last position is kept in the Watches.
+                </TextBlock.Text>
+            </TextBlock>
+        </StackPanel>
+        
+        <Border Grid.Row="1" Margin="12" BorderBrush="Black" BorderThickness="1" Background="WhiteSmoke">
+            <Grid>
+                <Label MouseMove="Label_MouseMove" Content="Move mouse over me to see current mouse position" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                
+            </Grid>
+        </Border>
+
+        <StackPanel Grid.Row="2" Margin="12,0,12,12">
+            <Button Content="Clear Watches" HorizontalAlignment="Left" Padding="12,4,12,4" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
