@@ -40,7 +40,7 @@ New samples, and especially improvements to existing samples, are always welcome
 * **Email Sample**: This samples demonstrates how easy it is to send messages to an SMTP server.
 * **Event Log Sample**: This samples demonstrates how easy it is to send messages to the Windows Event Logs.
 * **Database (SqlServer) Sample**: This samples demonstrates how easy it is to send messages to SQL Server. New!
-* 
+
 ## Additional Resources
 
 [Browse Knowledge Base](http://reflectsoftware.uservoice.com/knowledgebase)
