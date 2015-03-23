@@ -1,6 +1,12 @@
 ReflectInsight Samples
 ===============
 
+A set of sample apps for ReflectInsight library, including the logging extensions and listeners.
+
+[![Release](https://img.shields.io/github/release/reflectsoftware/reflectinsight-samples.svg)](https://github.com/reflectsoftware/reflectinsight-samples/releases/latest)
+
+[![Stars](https://img.shields.io/github/stars/reflectsoftware/reflectinsight-samples.svg)](https://github.com/reflectsoftware/reflectinsight-samples/stargazers)
+
 The majority of these samples are in .NET Framework 4.0. Only specific samples like the Enterprise Library Logging Application Block v6 
 and Semantic Logging samples are in .NET Framework 4.5, as they require that version of the framework to run.
 
