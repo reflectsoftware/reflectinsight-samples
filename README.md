@@ -3,7 +3,7 @@ ReflectInsight Samples
 
 A set of sample apps for ReflectInsight library, including the logging extensions and listeners.
 
-[![Build status](https://img.shields.io/appveyor/ci/reflectsoftware/reflectinsight-samples.svg)](https://ci.appveyor.com/project/reflectsoftware/reflectinsight-samples)
+[![Build status](https://ci.appveyor.com/api/projects/status/2d95ai8usarsq3ef?svg=true)](https://ci.appveyor.com/project/reflectsoftware/reflectinsight-samples)
 [![Release](https://img.shields.io/github/release/reflectsoftware/reflectinsight-samples.svg)](https://github.com/reflectsoftware/reflectinsight-samples/releases/latest)
 [![Stars](https://img.shields.io/github/stars/reflectsoftware/reflectinsight-samples.svg)](https://github.com/reflectsoftware/reflectinsight-samples/stargazers)
 
