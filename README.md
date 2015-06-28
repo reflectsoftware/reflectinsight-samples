@@ -44,9 +44,13 @@ New samples, and especially improvements to existing samples, are always welcome
 * **Common.Logging Sample**: This samples demonstrates how easy it is to use the Common.Logging extension.
 
 ### Listener Samples 
+* **Binary File Sample**: This samples demonstrates how easy it is to send messages to a Binary file.
+* **Console Sample**: This samples demonstrates how easy it is to send messages to the Console.
+* **Text File Sample**: This samples demonstrates how easy it is to send messages to a Text file.
+* **Viewer Sample**: This samples demonstrates how easy it is to send messages to the Live Viewer.
 * **Email Sample**: This samples demonstrates how easy it is to send messages to an SMTP server.
 * **Event Log Sample**: This samples demonstrates how easy it is to send messages to the Windows Event Logs.
-* **Database (SqlServer) Sample**: This samples demonstrates how easy it is to send messages to SQL Server. New!
+* **Database (SqlServer) Sample**: This samples demonstrates how easy it is to send messages to SQL Server.
 
 ## Additional Resources
 

@@ -2,4 +2,5 @@
 
 #### Version 5.5 ####
 
- * Moved from [CodePlex](http://insightextensions.codeplex.com/ "CodePlex")
+ * Added new Listener samples for: Console, Viewer, TextFile and BinaryFile
+ * Moved to GitHub from [CodePlex](http://insightextensions.codeplex.com/ "CodePlex") 
