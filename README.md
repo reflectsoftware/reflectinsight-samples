@@ -54,8 +54,10 @@ New samples, and especially improvements to existing samples, are always welcome
 
 ## Additional Resources
 
-[Browse Knowledge Base](http://reflectsoftware.uservoice.com/knowledgebase)
+[Documentation](https://reflectsoftware.atlassian.net/wiki/display/RI5/ReflectInsight+5+documentation)
 
 [Submit User Feedback](http://reflectsoftware.uservoice.com/forums/158277-reflectinsight-feedback)
 
 [Contact Support](support@reflectsoftware.com)
+
+[ReflectSoftware Website](http://reflectsoftware.com)
