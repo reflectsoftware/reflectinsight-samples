@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 Listener Samples", "3.0 Listener Samples", "{7C45817A-6A7C-4771-8FBD-011E3A5DAADF}"
 EndProject
@@ -137,17 +137,13 @@ Global
 		{21ABD917-74AA-4F08-9A5E-80604A341481}.Release|Any CPU.Build.0 = Release|Any CPU
 		{21ABD917-74AA-4F08-9A5E-80604A341481}.Release|x86.ActiveCfg = Release|Any CPU
 		{2EA01FD1-057A-4A97-B5D2-B67CE57393A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EA01FD1-057A-4A97-B5D2-B67CE57393A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA01FD1-057A-4A97-B5D2-B67CE57393A4}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{2EA01FD1-057A-4A97-B5D2-B67CE57393A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EA01FD1-057A-4A97-B5D2-B67CE57393A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EA01FD1-057A-4A97-B5D2-B67CE57393A4}.Release|x86.ActiveCfg = Release|Any CPU
 		{77541054-C328-41F0-810B-13732577C10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77541054-C328-41F0-810B-13732577C10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77541054-C328-41F0-810B-13732577C10E}.Debug|x86.ActiveCfg = Debug|x86
 		{77541054-C328-41F0-810B-13732577C10E}.Debug|x86.Build.0 = Debug|x86
 		{77541054-C328-41F0-810B-13732577C10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77541054-C328-41F0-810B-13732577C10E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{77541054-C328-41F0-810B-13732577C10E}.Release|x86.ActiveCfg = Release|x86
 		{77541054-C328-41F0-810B-13732577C10E}.Release|x86.Build.0 = Release|x86
 		{1435B6EA-02A2-4AFE-B049-3263410AE05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -268,7 +264,7 @@ Global
 		{229C5E34-1D72-46E6-BC58-335F9446CDC2} = {7C45817A-6A7C-4771-8FBD-011E3A5DAADF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.5.0.505.1\lib\NET35
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.5.0.505.1\lib\NET35
 	EndGlobalSection
 EndGlobal
