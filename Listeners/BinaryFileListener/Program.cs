@@ -23,7 +23,9 @@ namespace BinaryFileListener_Sample
 
                 ConsoleKeyInfo k = Console.ReadKey();
                 if (k.KeyChar == 'q')
+                {
                     break;
+                }
 
                 RILogManager.Default.SendMessage("Message");
                 RILogManager.Default.SendDebug("Debug");

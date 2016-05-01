@@ -23,7 +23,9 @@ namespace HeadlessConfiguration_Sample
 
                 ConsoleKeyInfo k = Console.ReadKey();
                 if (k.KeyChar == 'q')
+                {
                     break;
+                }
 
                 index++;
 

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CommonLogging_Sample
 {
@@ -7,7 +6,7 @@ namespace CommonLogging_Sample
     {
         static void TestCommonLogging()
         {
-            Common.Logging.ILog log = Common.Logging.LogManager.GetCurrentClassLogger();
+            Common.Logging.ILog log = Common.Logging.LogManager.GetLogger<Program>();
 
             while (true)
             {

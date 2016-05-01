@@ -23,22 +23,22 @@ namespace NLog_Sample
                 log.Info("[Enter] My Info1");
 
                 log.Trace("My Trace");
-                log.Trace("Trace Exception", ex);
+                log.Trace(ex, "Trace Exception");
 
                 log.Info("My Info");
-                log.Info("Info Exception", ex);
+                log.Info(ex, "Info Exception");
 
                 log.Debug("My Debug");
-                log.Debug("Debug Exception", ex);
+                log.Debug(ex, "Debug Exception");
 
                 log.Warn("My Warn");
-                log.Warn("Warn Exception", ex);
+                log.Warn(ex, "Warn Exception");
 
                 log.Error("My Error");
-                log.Error("Error Exception", ex);
+                log.Error(ex, "Error Exception");
 
                 log.Fatal("My Fatal");
-                log.Fatal("Fatal Exception", ex);
+                log.Fatal(ex, "Fatal Exception");
 
                 log.Info("[Exit] My Info1");
             }

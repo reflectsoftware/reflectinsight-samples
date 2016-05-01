@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using ReflectSoftware.Insight;
+﻿using ReflectSoftware.Insight;
+using System;
 
 namespace SatelliteConfiguration_Sample
 {
@@ -21,7 +18,9 @@ namespace SatelliteConfiguration_Sample
 
                 ConsoleKeyInfo k = Console.ReadKey();
                 if (k.KeyChar == 'q')
+                {
                     break;
+                }
 
                 RILogManager.Default.SendMessage("This is a logged message using satellite configuration.");
             }
