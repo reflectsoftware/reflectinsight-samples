@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HttpModule_Sample</RootNamespace>
     <AssemblyName>HttpModule_Sample</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -36,6 +36,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -44,6 +45,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -52,11 +54,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ReflectSoftware.Insight, Version=5.6.0.1604, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.5.6.0-rc1\lib\net40\ReflectSoftware.Insight.dll</HintPath>
+      <HintPath>..\..\packages\ReflectSoftware.Insight.5.6.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight.Extensions.HttpModule, Version=5.5.1.1510, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.HttpModule.5.5.1\lib\net40\ReflectSoftware.Insight.Extensions.HttpModule.dll</HintPath>
+    <Reference Include="ReflectSoftware.Insight.Extensions.HttpModule, Version=5.6.0.1604, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.HttpModule.5.6.0\lib\net45\ReflectSoftware.Insight.Extensions.HttpModule.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
@@ -66,9 +68,9 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />

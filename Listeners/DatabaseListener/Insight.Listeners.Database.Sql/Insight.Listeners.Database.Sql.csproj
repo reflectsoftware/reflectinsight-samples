@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Insight.Listeners.Database.Sql</RootNamespace>
     <AssemblyName>Insight.Listeners.Database.Sql</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName />
     <SccLocalPath />
@@ -27,6 +27,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,6 +36,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -42,7 +44,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ReflectSoftware.Insight, Version=5.6.0.1604, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\ReflectSoftware.Insight.5.6.0-rc1\lib\net40\ReflectSoftware.Insight.dll</HintPath>
+      <HintPath>..\..\..\packages\ReflectSoftware.Insight.5.6.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
