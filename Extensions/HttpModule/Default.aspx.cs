@@ -67,11 +67,11 @@ namespace HttpModule_Sample
                     RILogManager.Default.SendInformation("Information2");
                     RILogManager.Default.SendInformation("Information3");
 
-                    throw new Exception("Throw exception2");
+                    RILogManager.Default.ExitMethod(MethodBase.GetCurrentMethod(), true);
+                    RILogManager.Default.ExitMethod(MethodBase.GetCurrentMethod(), true);
+                    RILogManager.Default.ExitMethod(MethodBase.GetCurrentMethod(), true);
 
-                    RILogManager.Default.ExitMethod(MethodBase.GetCurrentMethod(), true);
-                    RILogManager.Default.ExitMethod(MethodBase.GetCurrentMethod(), true);
-                    RILogManager.Default.ExitMethod(MethodBase.GetCurrentMethod(), true);
+                    throw new Exception("Throw exception2");
                 }
                 catch (Exception ex)
                 {
