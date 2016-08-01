@@ -12,11 +12,6 @@ namespace RouterServiceListener_Sample
     {
         static void Main(string[] args)
         {
-            RunSample();
-        }
-
-        static void RunSample()
-        {
             while (true)
             {
                 Console.WriteLine("Press any key to run test or press 'q' to quit...");
