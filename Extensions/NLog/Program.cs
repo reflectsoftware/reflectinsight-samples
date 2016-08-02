@@ -1,22 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-
 using NLog;
 
 namespace NLog_Sample
 {
     class Program
     {
-        static void TestNLog()
-        {
-            Logger log = LogManager.GetLogger("ReflectInsight");
+        static Logger log = LogManager.GetLogger("ReflectInsight");
 
+        static void Main(string[] args)
+        {        
             while (true)
             {
                 Console.WriteLine("Press any key or 'q' to quit...");
+
                 ConsoleKeyInfo k = Console.ReadKey();
                 if (k.KeyChar == 'q')
+                {
                     break;
+                }
 
                 Exception ex = new Exception("This is my test exception!");
 
@@ -40,13 +41,17 @@ namespace NLog_Sample
                 log.Fatal("My Fatal");
                 log.Fatal(ex, "Fatal Exception");
 
+                DoDomething();
+                
                 log.Info("[Exit] My Info1");
             }
         }
 
-        static void Main(string[] args)
+        static void DoDomething()
         {
-            TestNLog();
+            log.Info("[Enter] DoSomething");
+            log.Info("Something happened!");
+            log.Info("[Exit] DoSomething");
         }
     }
 }

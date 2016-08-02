@@ -1,16 +1,12 @@
 ReflectInsight Samples
 ===============
 
-A set of sample apps for ReflectInsight library, including the logging extensions and listeners.
+A set of sample apps for ReflectInsight logging library, including the logging extensions and listeners.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/github/reflectsoftware/reflectinsight-samples?svg=true)](https://ci.appveyor.com/project/reflectsoftware/reflectinsight-samples)
 [![License](https://img.shields.io/:license-MS--PL-blue.svg)](https://github.com/reflectsoftware/reflectinsight-samples/license.md)
 [![Release](https://img.shields.io/github/release/reflectsoftware/reflectinsight-samples.svg)](https://github.com/reflectsoftware/reflectinsight-samples/releases/latest)
 [![Stars](https://img.shields.io/github/stars/reflectsoftware/reflectinsight-samples.svg)](https://github.com/reflectsoftware/reflectinsight-samples/stargazers)
-
-
-The majority of these samples are in .NET Framework 4.0. Only specific samples like the Enterprise Library Logging Application Block v6 
-and Semantic Logging samples are in .NET Framework 4.5, as they require that version of the framework to run.
 
 Most of the samples include a README.txt file, which explains in more detail about the sample and the concepts being demonstrated.
 
@@ -53,6 +49,7 @@ New samples, and especially improvements to existing samples, are always welcome
 * **Email Sample**: This sample demonstrates how easy it is to send messages to an SMTP server.
 * **Event Log Sample**: This sample demonstrates how easy it is to send messages to the Windows Event Logs.
 * **Database (SqlServer) Sample**: This sample demonstrates how easy it is to send messages to SQL Server.
+* **Router Service Sample**: This sample demonstrates how easy it is to send messages to the ReflectInsight Router Service.
 
 ## Additional Resources
 
