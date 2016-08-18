@@ -73,7 +73,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="README.txt" />
+    <None Include="README.md" />
     <Content Include="ReflectInsight.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

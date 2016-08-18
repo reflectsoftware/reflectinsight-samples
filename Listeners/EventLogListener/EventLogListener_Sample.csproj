@@ -65,7 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="README.txt" />
+    <None Include="README.md" />
     <None Include="App.config" />
     <Content Include="ReflectInsight.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

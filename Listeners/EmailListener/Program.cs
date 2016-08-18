@@ -23,7 +23,7 @@ namespace EmailListener_Sample
                 if (k.KeyChar == 'q')
                     break;
 
-                RILogManager.Default.SendException(new Exception("This is a sample exception"));
+                RILogManager.Default.SendException(new Exception("This is a sample exception from the Email listener."));
             }
         }
     }

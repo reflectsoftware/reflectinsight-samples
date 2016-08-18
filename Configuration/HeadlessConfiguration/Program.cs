@@ -31,6 +31,8 @@ namespace HeadlessConfiguration_Sample
 
                 // Load the configuration file in the root of the application
                 ReflectInsightConfig.Control.SetExternalConfigurationMode(@"$(workingdir)\ReflectInsight.config");
+
+                // Log some messages
                 RILogManager.Default.SendMessage("Testing developer configuration mode...");
                 RILogManager.Default.SendMessage("Configuration full path: {0}", ReflectInsightConfig.Control.LastConfigFullPath);
                 RILogManager.Default.SendError("A Some Error: {0}", index);
@@ -39,6 +41,7 @@ namespace HeadlessConfiguration_Sample
                 ReflectInsightConfig.Control.ClearExternalConfigurationMode();
                 ReflectInsightConfig.Control.SetExternalConfigurationMode(@"$(workingdir)\Other Config\ReflectInsight2.config");
 
+                // Log some messages
                 RILogManager.Default.SendMessage("Testing developer configuration mode...");
                 RILogManager.Default.SendMessage("Configuration full path: {0}", ReflectInsightConfig.Control.LastConfigFullPath);
                 RILogManager.Default.SendError("B Some Error: {0}", index);
