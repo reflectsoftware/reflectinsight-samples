@@ -4,7 +4,7 @@ using System.Linq;
 
 using ReflectSoftware.Insight;
 
-namespace Bindings.Sample1
+namespace DestinationBindingGroup_Sample
 {
     class Program
     {

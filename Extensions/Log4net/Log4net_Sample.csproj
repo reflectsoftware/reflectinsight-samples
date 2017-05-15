@@ -56,21 +56,18 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\log4net.2.0.5\lib\net40-full\log4net.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight, Version=5.6.1.1604, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.5.6.1.2\lib\net45\ReflectSoftware.Insight.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="ReflectSoftware.Insight, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.5.7.0.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight.Extensions.Log4net, Version=5.6.1.1604, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.Log4net.5.6.1\lib\net45\ReflectSoftware.Insight.Extensions.Log4net.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="ReflectSoftware.Insight.Extensions.Log4net, Version=5.6.2.1704, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.Log4net.5.6.2\lib\net45\ReflectSoftware.Insight.Extensions.Log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

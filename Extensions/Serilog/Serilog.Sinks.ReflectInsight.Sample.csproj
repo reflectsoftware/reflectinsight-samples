@@ -38,17 +38,14 @@
       <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight, Version=5.6.1.1604, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.5.6.1.2\lib\net45\ReflectSoftware.Insight.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="ReflectSoftware.Insight, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.5.7.0.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
     </Reference>
     <Reference Include="Serilog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serilog.2.1.0\lib\net45\Serilog.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\packages\Serilog.2.4.0\lib\net46\Serilog.dll</HintPath>
     </Reference>
-    <Reference Include="Serilog.Sinks.ReflectInsight, Version=2.0.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Serilog.Sinks.ReflectInsight.2.0.1\lib\net451\Serilog.Sinks.ReflectInsight.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Serilog.Sinks.ReflectInsight, Version=2.2.0.0, Culture=neutral, PublicKeyToken=24c2f752a8e58a10, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Serilog.Sinks.ReflectInsight.2.2.0\lib\net451\Serilog.Sinks.ReflectInsight.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
