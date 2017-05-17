@@ -48,9 +48,8 @@
     <Reference Include="ReflectSoftware.Insight, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
       <HintPath>..\..\packages\ReflectSoftware.Insight.5.7.0.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight.Listeners.Email, Version=5.6.1.1604, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.Listeners.Email.5.6.1\lib\net45\ReflectSoftware.Insight.Listeners.Email.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="ReflectSoftware.Insight.Listeners.Email, Version=5.7.0.1705, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.Listeners.Email.5.7.0\lib\net45\ReflectSoftware.Insight.Listeners.Email.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -51,8 +51,8 @@
     <Reference Include="ReflectSoftware.Insight, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
       <HintPath>..\..\packages\ReflectSoftware.Insight.5.7.0.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight.Extensions.NLog, Version=5.6.2.1704, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.NLog.5.6.2\lib\net45\ReflectSoftware.Insight.Extensions.NLog.dll</HintPath>
+    <Reference Include="ReflectSoftware.Insight.Extensions.NLog, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.NLog.5.7.0\lib\net45\ReflectSoftware.Insight.Extensions.NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

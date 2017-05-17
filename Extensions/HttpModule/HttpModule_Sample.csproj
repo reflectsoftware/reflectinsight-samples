@@ -56,9 +56,8 @@
     <Reference Include="ReflectSoftware.Insight, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=c78ddbdaf1f32b08, processorArchitecture=MSIL">
       <HintPath>..\..\packages\ReflectSoftware.Insight.5.7.0.0\lib\net45\ReflectSoftware.Insight.dll</HintPath>
     </Reference>
-    <Reference Include="ReflectSoftware.Insight.Extensions.HttpModule, Version=5.6.1.1604, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.HttpModule.5.6.1\lib\net45\ReflectSoftware.Insight.Extensions.HttpModule.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="ReflectSoftware.Insight.Extensions.HttpModule, Version=5.7.0.1705, Culture=neutral, PublicKeyToken=19d655a8a8766161, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ReflectSoftware.Insight.Extensions.HttpModule.5.7.0\lib\net45\ReflectSoftware.Insight.Extensions.HttpModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
