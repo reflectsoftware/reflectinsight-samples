@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json.Linq;
 using NLog;
 
 namespace NLog_Sample
@@ -19,31 +20,33 @@ namespace NLog_Sample
                     break;
                 }
 
-                Exception ex = new Exception("This is my test exception!");
+                Test();
 
-                log.Info("[Enter] My Info1");
+                //Exception ex = new Exception("This is my test exception!");
 
-                log.Trace("My Trace");
-                log.Trace(ex, "Trace Exception");
+                //log.Info("[Enter] My Info1");
 
-                log.Info("My Info");
-                log.Info(ex, "Info Exception");
+                //log.Trace("My Trace");
+                //log.Trace(ex, "Trace Exception");
 
-                log.Debug("My Debug");
-                log.Debug(ex, "Debug Exception");
+                //log.Info("My Info");
+                //log.Info(ex, "Info Exception");
 
-                log.Warn("My Warn");
-                log.Warn(ex, "Warn Exception");
+                //log.Debug("My Debug");
+                //log.Debug(ex, "Debug Exception");
 
-                log.Error("My Error");
-                log.Error(ex, "Error Exception");
+                //log.Warn("My Warn");
+                //log.Warn(ex, "Warn Exception");
 
-                log.Fatal("My Fatal");
-                log.Fatal(ex, "Fatal Exception");
+                //log.Error("My Error");
+                //log.Error(ex, "Error Exception");
 
-                DoDomething();
-                
-                log.Info("[Exit] My Info1");
+                //log.Fatal("My Fatal");
+                //log.Fatal(ex, "Fatal Exception");
+
+                //DoDomething();
+                //
+                //log.Info("[Exit] My Info1");
             }
         }
 
@@ -52,6 +55,20 @@ namespace NLog_Sample
             log.Info("[Enter] DoSomething");
             log.Info("Something happened!");
             log.Info("[Exit] DoSomething");
+        }
+
+        static void Test()
+        {
+             Logger _logger = LogManager.GetCurrentClassLogger();
+
+        dynamic t = JObject.Parse(@"{
+  ""price"": 11190.0,
+  ""amount"": 0.43422189,
+  ""datetime"": ""1517049417"",
+  ""id"": 844079167,
+  ""order_type"": 0
+}");
+        _logger.Trace(t);
         }
     }
 }
