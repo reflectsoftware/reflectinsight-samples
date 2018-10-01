@@ -30,25 +30,26 @@ New samples, and especially improvements to existing samples, are always welcome
 * **Destination Binding Sample**: This sample demonstrates how use destination binding so that you can control where to send messages to from code/configuration. New!
 
 ### Extension Samples 
+Our extension samples have been moved to each of the extension repositories.
 * **.NET Diagnostic Debug/Trace Sample**: This sample demonstrates how easy it is to Debug/Trace extension.
-* **Enterprise Library v5 Sample**: This sample demonstrates how easy it is to use the Enterprise Library v5 extension.
-* **Enterprise Library v6 Sample**: This sample demonstrates how easy it is to use the Enterprise Library v6 extension.
-* **HttpModule Sample**: This sample demonstrates how easy it is to use the Http Module extension.
-* **Log4net Sample**: This sample demonstrates how easy it is to use the Log4net extension.
-* **NLog Sample**: This sample demonstrates how easy it is to use the NLog extension.
-* **PostSharp Sample**: This sample demonstrates how easy it is to use the PostSharp extension.
-* **Semantic Logging Sample**: This sample demonstrates how easy it is to use the Enterprise Library Semantic Logging extension.
-* **Common.Logging Sample**: This sample demonstrates how easy it is to use the Common.Logging extension.
-* **Serilog Sink Sample**: This sample demonstrates how easy it is to use the Serilog.Sinks.ReflectInsight extension.
+* **Enterprise Library v5 Sample**: MOVED - This sample demonstrates how easy it is to use the Enterprise Library v5 extension.
+* **Enterprise Library v6 Sample**: MOVED - This sample demonstrates how easy it is to use the Enterprise Library v6 extension.
+* **HttpModule Sample**: MOVED - This sample demonstrates how easy it is to use the Http Module extension.
+* **Log4net Sample**: MOVED - This sample demonstrates how easy it is to use the Log4net extension.
+* **NLog Sample**: MOVED - This sample demonstrates how easy it is to use the NLog extension.
+* **PostSharp Sample**: MOVED - This sample demonstrates how easy it is to use the PostSharp extension.
+* **Semantic Logging Sample**: MOVED - This sample demonstrates how easy it is to use the Enterprise Library Semantic Logging extension.
+* **Common.Logging Sample**: MOVED - This sample demonstrates how easy it is to use the Common.Logging extension.
+* **Serilog Sink Sample**: MOVED - This sample demonstrates how easy it is to use the Serilog.Sinks.ReflectInsight extension.
 
 ### Listener Samples 
 * **Binary File Sample**: This sample demonstrates how easy it is to send messages to a Binary file.
 * **Console Sample**: This sample demonstrates how easy it is to send messages to the Console.
 * **Text File Sample**: This sample demonstrates how easy it is to send messages to a Text file.
 * **Viewer Sample**: This sample demonstrates how easy it is to send messages to the Live Viewer.
-* **Email Sample**: This sample demonstrates how easy it is to send messages to an SMTP server.
+* **Email Sample**: MOVED - This sample demonstrates how easy it is to send messages to an SMTP server.
 * **Event Log Sample**: This sample demonstrates how easy it is to send messages to the Windows Event Logs.
-* **Database (SqlServer) Sample**: This sample demonstrates how easy it is to send messages to SQL Server.
+* **Database (SqlServer) Sample**: MOVED - This sample demonstrates how easy it is to send messages to SQL Server.
 * **Router Service Sample**: This sample demonstrates how easy it is to send messages to the ReflectInsight Router Service.
 
 ## Additional Resources
